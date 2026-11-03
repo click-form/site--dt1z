@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Салон-перукарня «Пластилін» — Головна</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-950 text-neutral-100 font-sans antialiased selection:bg-amber-500 selection:text-white">
+    
+    <!-- Навігація -->
+    <header class="sticky top-0 z-50 bg-neutral-950/90 backdrop-blur-md border-b border-neutral-800 h-20 flex items-center">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-tight text-amber-500 flex items-center gap-2">
+                <span>Пластилін</span>
+            </a>
+            <nav class="hidden md:flex items-center gap-1 text-sm font-medium">
+                <a href="index.html" class="bg-amber-500 text-white rounded-lg px-4 py-2 transition">Головна</a>
+                <a href="about.html" class="hover:bg-amber-500/10 rounded-lg px-4 py-2 transition">Про нас</a>
+                <a href="services.html" class="hover:bg-amber-500/10 rounded-lg px-4 py-2 transition">Послуги</a>
+                <a href="gallery.html" class="hover:bg-amber-500/10 rounded-lg px-4 py-2 transition">Галерея</a>
+                <a href="booking.html" class="hover:bg-amber-500/10 rounded-lg px-4 py-2 transition">Забронювати</a>
+                <a href="contacts.html" class="hover:bg-amber-500/10 rounded-lg px-4 py-2 transition">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Секція -->
+    <section class="relative min-h-[80vh] flex items-center justify-center bg-gradient-to-br from-neutral-900 via-neutral-950 to-black px-6 text-center">
+        <div class="absolute inset-0 bg-black/40 z-0"></div>
+        <div class="relative z-10 max-w-3xl mx-auto py-20">
+            <h1 class="text-5xl md:text-6xl font-bold tracking-tight mb-6 text-white">
+                Салон-перукарня «Пластилін»
+            </h1>
+            <p class="text-xl text-neutral-300 mb-10 max-w-xl mx-auto">
+                Професійні послуги краси у Новгороді-Сіверському. Стиль, якість та затишок для кожного клієнта.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="booking.html" class="bg-amber-500 hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-xl shadow-2xl transition transform hover:-translate-y-0.5">
+                    Записатися онлайн
+                </a>
+                <a href="services.html" class="bg-neutral-800 hover:bg-neutral-700 text-neutral-200 font-semibold px-8 py-4 rounded-xl transition">
+                    Наші послуги
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Послуги (4 позиції) -->
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4 text-white">Популярні послуги</h2>
+            <p class="text-neutral-400">Оберіть свій ідеальний догляд у нашому салоні</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition">
+                <div class="h-12 w-12 rounded-xl bg-amber-500/10 text-amber-500 flex items-center justify-center font-bold text-xl mb-4">01</div>
+                <h3 class="text-xl font-bold mb-2 text-white">Жіночі стрижки</h3>
+                <p class="text-neutral-400 text-sm">Сучасні тренди, класичні форми та професійний догляд для вашого волосся.</p>
+            </div>
+            <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition">
+                <div class="h-12 w-12 rounded-xl bg-amber-500/10 text-amber-500 flex items-center justify-center font-bold text-xl mb-4">02</div>
+                <h3 class="text-xl font-bold mb-2 text-white">Чоловічі стрижки</h3>
+                <p class="text-neutral-400 text-sm">Акуратні стрижки, моделювання бороди та стильні чоловічі укладки.</p>
+            </div>
+            <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition">
+                <div class="h-12 w-12 rounded-xl bg-amber-500/10 text-amber-500 flex items-center justify-center font-bold text-xl mb-4">03</div>
+                <h3 class="text-xl font-bold mb-2 text-white">Манікюр</h3>
+                <p class="text-neutral-400 text-sm">Естетичний догляд за нігтями, покриття гель-лаком та зміцнення.</p>
+            </div>
+            <div class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition">
+                <div class="h-12 w-12 rounded-xl bg-amber-500/10 text-amber-500 flex items-center justify-center font-bold text-xl mb-4">04</div>
+                <h3 class="text-xl font-bold mb-2 text-white">Фарбування</h3>
+                <p class="text-neutral-400 text-sm">Складні техніки фарбування, тонування та дбайливе освітлення.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Унікальні факти / Про нас -->
+    <section class="bg-neutral-900/50 border-y border-neutral-800 py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6 text-white">Чому обирають «Пластилін»</h2>
+            <p class="text-neutral-300 text-lg leading-relaxed mb-8">
+                Салон-перукарня «Пластилін» у місті Новгород-Сіверський пропонує широкий спектр послуг краси та догляду. Заклад розташований за адресою вулиця Базарна. Команда майстрів дбає про комфорт та якісний догляд для кожного клієнта.
+            </p>
+            <div class="grid md:grid-cols-2 gap-6 text-left">
+                <div class="bg-neutral-900 p-6 rounded-xl border border-neutral-800">
+                    <h4 class="font-bold text-amber-500 mb-2">Зручне розташування</h4>
+                    <p class="text-neutral-400 text-sm">Розташований у центральній частині міста Новгород-Сіверський на вулиці Базарній.</p>
+                </div>
+                <div class="bg-neutral-900 p-6 rounded-xl border border-neutral-800">
+                    <h4 class="font-bold text-amber-500 mb-2">Професійний підхід</h4>
+                    <p class="text-neutral-400 text-sm">Спеціалізується на послугах краси, перукарському мистецтві та догляді.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="bg-neutral-900 text-neutral-400 py-12 px-6 border-t border-neutral-800">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+                <p class="text-white font-bold text-lg mb-1">Салон-перукарня «Пластилін»</p>
+                <p class="text-sm">вулиця Базарна, Новгород-Сіверський, Чернігівська область, 16000</p>
+            </div>
+            <div class="flex gap-6 text-sm">
+                <a href="index.html" class="hover:text-amber-500 transition">Головна</a>
+                <a href="about.html" class="hover:text-amber-500 transition">Про нас</a>
+                <a href="services.html" class="hover:text-amber-500 transition">Послуги</a>
+                <a href="contacts.html" class="hover:text-amber-500 transition">Контакти</a>
+            </div>
+        </div>
+    </footer>
+
+<script>document.getElementById('mobile-toggle')?.addEventListener('click',()=>{document.getElementById('mobile-menu')?.classList.toggle('hidden');});</script>
+</body>
+</html>
